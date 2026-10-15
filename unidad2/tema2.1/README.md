@@ -18,6 +18,10 @@ y dominar el pattern matching como alternativa funcional a los `if`/`switch` imp
 | `patron_matching.erl` | Validador de RFC mexicano usando solo pattern matching y guards |
 | [`TUTORIAL_ERLANG.md`](TUTORIAL_ERLANG.md) | **Tutorial consolidado básico → intermedio → avanzado** (13 ejemplos verificados en OTP 25 y 26) |
 | [`tutorial_erlang/`](tutorial_erlang/) | Código del tutorial + `verificar.sh` |
+| [`problemasAresolver.md`](problemasAresolver.md) | **Criterio para decidir cuándo usar un lenguaje funcional** + banco de problemas (Spencer / TecNM) |
+| [`patrones_mbit.md`](patrones_mbit.md) | **Práctica 0:** leer patrones con un micro:bit (pattern matching sobre binarios) y conocer el nodo/servidor Erlang. Va antes de erlangmbit y flota40 |
+| [`erlangmbit.md`](erlangmbit.md) | **Práctica con hardware:** micro:bit + Erlang/OTP (sensores, supervisor, let it crash) + 15 prácticas con Arduino, Pico W y ESP32 |
+| [`sse_eventos.md`](sse_eventos.md) | **Lección aparte:** de polling a eventos empujados con SSE en Erlang/OTP (`pg`, un proceso por cliente, `Last-Event-ID`); opcional tras flota40 |
 
 > El `TUTORIAL_ERLANG.md` recorre de una sola vez la ruta completa: tipos y
 > pattern matching (nivel 1), procesos y `gen_server` (nivel 2), supervisión,
